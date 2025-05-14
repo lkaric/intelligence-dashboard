@@ -1,9 +1,7 @@
+import { ReportsGrid } from '../../features';
+
 const DashboardPage: React.FC = () => {
-  return (
-    <main>
-      <h1>Dashboard</h1>
-    </main>
-  );
+  return <ReportsGrid />;
 };
 
 export { DashboardPage };
